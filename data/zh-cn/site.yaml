@@ -10,6 +10,7 @@ description: "记录学习与折腾过程的个人博客"
 # 顶部导航栏自定义菜单（按需启用，每项 url 推荐用站内链接 /posts/，避免跳到外部站）
 customMenus:
 - name: 博客指南
+  # 用户页模式下不需要子路径前缀
   url: /posts/blog-guide/
   hideFromNavbar: false
   showOnFooter: false

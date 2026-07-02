@@ -1,5 +1,5 @@
-# 项目页模式部署到 GitHub Pages
-baseURL = "https://VimatinD.github.io/D-Blog/"
+# 用户页模式部署到 GitHub Pages
+baseURL = "https://VimatinD.github.io/"
 defaultContentLanguage = "zh-cn"
 title = "我的博客"
 # 中文必须加这一行，Hugo 才能正确处理中日韩文字间距
