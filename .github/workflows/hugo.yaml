@@ -59,7 +59,9 @@ jobs:
         run: hugo mod npm pack
 
       - name: Install npm dependencies
-        run: npm ci
+        # 用 npm install 而不是 npm ci，因为 hugo mod npm pack 每次会重生成 package.json
+        # 导致 package-lock.json 不同步，npm ci 会严格拒绝
+        run: npm install
 
       - name: Setup Pages
         id: pages
