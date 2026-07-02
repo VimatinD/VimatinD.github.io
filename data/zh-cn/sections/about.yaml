@@ -1,0 +1,41 @@
+# 板块信息
+section:
+  name: 关于
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# 你的职位
+designation: 软件工程师
+# 公司信息（可选）
+company:
+  name: ""
+  url: ""
+
+# 关于你的介绍（首页显示）
+summary: '我是一名软件工程师，喜欢折腾新技术和写代码。日常写技术笔记，分享踩过的坑。'
+
+# 社交链接（按需启用）
+socialLinks:
+- name: 邮箱
+  icon: "fas fa-envelope"
+  url: "your-email@example.com"
+
+- name: GitHub
+  icon: "fab fa-github"
+  url: "https://github.com/your-id"
+
+- name: 知乎
+  icon: "fab fa-zhihu"
+  url: ""
+
+- name: 掘金
+  icon: "fab fa-blogger-b"
+  url: ""
+
+# 资源链接（如简历）
+resourceLinks:
+- title: "我的简历"
+  url: "files/resume.pdf"

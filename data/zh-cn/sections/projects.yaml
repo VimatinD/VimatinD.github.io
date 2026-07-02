@@ -1,0 +1,42 @@
+# 板块信息
+section:
+  name: 项目
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+
+# 筛选按钮
+buttons:
+- name: 全部
+  filter: "all"
+- name: 工作项目
+  filter: "professional"
+- name: 个人项目
+  filter: "hobby"
+- name: 学习
+  filter: "academic"
+
+# 项目列表
+projects:
+- name: 个人博客
+  logo: /images/sections/projects/toha.png
+  role: Owner
+  timeline: "2026年 - 至今"
+  repo: https://github.com/VimatinD/D-Blog
+  summary: 基于 Hugo + Toha 主题的个人博客。
+  tags: ["hobby", "hugo"]
+
+- name: 项目示例 1
+  role: Developer
+  timeline: "2025年 - 至今"
+  repo: https://github.com/your-id/your-project
+  summary: 在这里用一句话描述你的项目。
+  tags: ["professional"]
+
+- name: 项目示例 2
+  role: Contributor
+  timeline: "2024年"
+  url: "https://example.com"
+  summary: 项目简介。
+  tags: ["academic"]

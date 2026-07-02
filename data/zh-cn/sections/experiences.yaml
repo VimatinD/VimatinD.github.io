@@ -1,0 +1,44 @@
+# 板块信息
+section:
+  name: 工作经历
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+
+# 工作经历
+experiences:
+- company:
+    name: 某公司
+    url: "https://example.com"
+    location: 北京
+    logo: /images/sections/experiences/company1.jpg
+    overview: 一句话介绍这家公司是做什么的。
+  positions:
+  - designation: 高级工程师
+    start: 2022年1月
+    # 不填 end 表示"至今"
+    responsibilities:
+    - 负责某某系统的设计与开发
+    - 带领小组完成项目交付
+
+  - designation: 工程师
+    start: 2020年6月
+    end: 2021年12月
+    responsibilities:
+    - 参与某某功能开发
+    - 维护日常线上问题
+
+- company:
+    name: 某创业公司
+    url: "https://example.com"
+    location: 上海
+    logo: /images/sections/experiences/company2.jpg
+    overview: 早期创业公司，做某某方向。
+  positions:
+  - designation: 后端开发
+    start: 2019年3月
+    end: 2020年5月
+    responsibilities:
+    - 后端服务开发
+    - 数据库设计与优化

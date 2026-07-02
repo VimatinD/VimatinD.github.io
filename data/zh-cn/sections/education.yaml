@@ -1,0 +1,34 @@
+# 板块信息
+section:
+  name: 教育背景
+  id: education
+  template: sections/education.html
+  enable: true
+  weight: 4
+  showOnNavbar: true
+
+# 学历
+degrees:
+- name: 计算机科学硕士
+  icon: fa-graduation-cap
+  timeframe: 2018 - 2020
+  institution:
+    name: 某某大学
+    url: "#"
+    logo: /images/sections/education/tech_college.png
+  grade:
+    scale: GPA
+    achieved: 3.7
+    outOf: 4
+
+- name: 软件工程学士
+  icon: fa-graduation-cap
+  timeframe: 2014 - 2018
+  institution:
+    name: 某某大学
+    url: "#"
+    logo: /images/sections/education/university.jpg
+  grade:
+    scale: GPA
+    achieved: 3.5
+    outOf: 4

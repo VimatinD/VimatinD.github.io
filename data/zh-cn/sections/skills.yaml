@@ -1,0 +1,51 @@
+# 板块信息
+section:
+  name: 技能
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  filter: true
+
+# 筛选按钮
+buttons:
+- name: 全部
+  filter: "all"
+- name: 编程语言
+  filter: "language"
+- name: 工具
+  filter: "tool"
+- name: 其他
+  filter: "others"
+
+# 技能列表
+skills:
+- name: Go
+  logo: /images/sections/skills/go.png
+  summary: "工作中主要使用的语言，能写可维护、可测试的程序。"
+  categories: ["language"]
+
+- name: Python
+  logo: /images/sections/skills/linux.png  # 占位图，自行替换
+  summary: "写脚本、数据处理常用。"
+  categories: ["language"]
+
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: "日常开发必备，熟悉 GitFlow 工作流。"
+  categories: ["tool"]
+
+- name: Docker
+  logo: /images/sections/skills/docker.svg
+  summary: "项目基本都容器化部署，熟悉多阶段构建。"
+  categories: ["tool"]
+
+- name: Linux
+  logo: /images/sections/skills/linux.png
+  summary: "主要操作系统，能写 Shell 脚本。"
+  categories: ["tool"]
+
+- name: Hugo
+  logo: /images/sections/skills/cloud.png  # 占位图，自行替换
+  summary: "本博客就是用 Hugo 搭建的。"
+  categories: ["others"]

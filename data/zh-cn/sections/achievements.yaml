@@ -1,0 +1,21 @@
+# 板块信息
+section:
+  name: 成就
+  id: achievements
+  enable: true
+  weight: 10
+  showOnNavbar: true
+
+# 成就列表
+achievements:
+- title: 某某比赛获奖
+  image: /images/sections/achievements/presenter.jpg
+  summary: 在某某比赛中获得某某奖项。
+
+- title: 顺利毕业
+  image: /images/sections/achievements/graduation-cap.jpg
+  summary: 完成某某学业。
+
+- title: 取得认证
+  image: /images/sections/achievements/woman-winner.jpg
+  summary: 获得某某证书。

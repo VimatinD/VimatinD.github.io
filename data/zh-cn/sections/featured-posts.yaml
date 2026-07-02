@@ -1,0 +1,12 @@
+section:
+  name: 推荐文章
+  id: featured-posts
+  enable: true
+  weight: 7
+  showOnNavbar: true
+  hideTitle: false
+
+# 推荐的文章（用 content/posts/ 下的文件名，不带扩展名）
+posts:
+  - markdown-sample
+  - shortcodes

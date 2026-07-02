@@ -1,0 +1,20 @@
+# 个人信息
+name: "你的名字"
+nickname: "昵称"
+# 名字前的招呼语，不填默认 "Hi! I am"
+greeting: "你好，我是"
+image: "images/author/john.png"
+# 联系方式（页脚会用到）
+contactInfo:
+  email: "your-email@example.com"
+  phone: ""
+  github: your-github-id
+  linkedin: ""
+  researchgate: ""
+
+# 一句话自我介绍列表（首页显示）
+summary:
+  - 我是开发者
+  - 我喜欢写代码
+  - 我热衷于开源项目
+  - 我喜欢折腾新东西

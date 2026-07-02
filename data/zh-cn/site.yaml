@@ -1,0 +1,23 @@
+# 版权声明（页脚显示）
+copyright: © 2026 版权所有
+
+# 页脚免责声明（需在 hugo.toml 里 params.footer.disclaimer.enable = true）
+disclaimer: "本站基于 Toha 主题（MIT 协议）构建。允许个人和商业用途，可自由修改和分发。"
+
+# 网站描述（SEO 用）
+description: "记录学习与折腾过程的个人博客"
+
+# 顶部导航栏自定义菜单（按需启用，每项 url 推荐用站内链接 /posts/，避免跳到外部站）
+customMenus:
+- name: 博客指南
+  url: /posts/blog-guide/
+  hideFromNavbar: false
+  showOnFooter: false
+
+# OpenGraph 元数据（社交分享时显示）
+openGraph:
+  title: 我的博客
+  type: website
+  description: "记录学习与折腾过程的个人博客"
+  image: images/author/john.png
+  url: https://example.org

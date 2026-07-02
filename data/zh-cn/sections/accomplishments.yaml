@@ -1,0 +1,25 @@
+# 板块信息
+section:
+  name: 证书与软技能
+  id: accomplishments
+  enable: true
+  weight: 6
+  showOnNavbar: true
+
+# 证书
+certifications:
+- name: 某认证
+  url: "https://www.credly.com/"
+  badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
+
+# 软技能（进度条展示）
+softSkills:
+- name: 领导力
+  percentage: 80
+  color: blue
+- name: 团队协作
+  percentage: 90
+  color: yellow
+- name: 勤奋
+  percentage: 85
+  color: orange

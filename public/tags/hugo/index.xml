@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on 我的博客</title>
+    <link>http://localhost:1313/D-Blog/tags/hugo/</link>
+    <description>Recent content in Hugo on 我的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 02 Jul 2026 21:43:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/D-Blog/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>博客操作指南</title>
+      <link>http://localhost:1313/D-Blog/posts/blog-guide/</link>
+      <pubDate>Thu, 02 Jul 2026 21:43:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/D-Blog/posts/blog-guide/</guid>
+      <description>Toha 主题博客的日常操作手册：写文章、改配置、升级主题、部署</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,1177 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head><script src="/D-Blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=D-Blog/livereload" data-no-instant defer></script>
+    <title>博客操作指南</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/D-Blog/posts/blog-guide/" />
+
+
+<link rel="stylesheet" href="/D-Blog/application.c0ba72c6522e191159a4468d1b3e0f8b9ef1bbbdaa2c3af8584d3ee9247c58ee.css" integrity="sha256-wLpyxlIuGRFZpEaNGz4Pi57xu72qLDr4WE0&#43;6SR8WO4=" />
+
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/D-Blog/images/site/favicon_hu_fd6aa13f05725319.png" />
+
+
+
+
+
+
+
+
+
+<meta property="og:title" content="博客操作指南" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="记录学习与折腾过程的个人博客" />
+    <meta property="og:image" content="http://localhost:1313/D-Blog/images/author/john.png">
+  <meta property="og:url" content="http://localhost:1313/D-Blog/posts/blog-guide/">
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="博客操作指南">
+	<meta name="twitter:description" content="Toha 主题博客的日常操作手册：写文章、改配置、升级主题、部署">
+
+    
+<meta name="description" content="博客操作指南" />
+
+
+    
+
+
+
+
+
+    <script integrity="sha256-DO4ugzEwhTW1Id1UIWn0gUJWaebCYOypeTit6LW4QB4=">
+     let theme = localStorage.getItem('theme-scheme') || localStorage.getItem('darkmode:color-scheme') || 'light'
+if (theme === 'system') {
+  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    theme = 'dark'
+  } else {
+    theme = 'light'
+  }
+}
+document.documentElement.setAttribute('data-theme', theme)
+
+    </script>
+    
+  </head>
+
+  <body class="type-posts kind-page" data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="80">
+    <div class="container-fluid bg-secondary wrapper">
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar shadow " id="top-navbar">
+  <div class="container">
+    
+    <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button">
+      <i data-feather="sidebar"></i>
+    </button>
+    
+    <a class="navbar-brand" href="/D-Blog">
+      
+        <img src="/D-Blog/images/site/main-logo_hu_d2fa0cd478cf3070.png" id="logo" alt="Logo">
+      我的博客</a>
+    <button
+      class="navbar-toggler navbar-light"
+      id="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#top-nav-items"
+      aria-label="menu"
+    >
+      <i data-feather="menu"></i>
+    </button>
+
+    <div class="collapse navbar-collapse dynamic-navbar" id="top-nav-items">
+      <ul class="nav navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/D-Blog#home">主页</a>
+        </li>
+        
+          
+          
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/D-Blog#about">关于</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/D-Blog#skills">技能</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/D-Blog#experiences">工作经历</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/D-Blog#education">教育背景</a>
+                </li>
+              
+            
+            
+              
+              
+            
+            
+              
+              
+            
+            
+              
+              
+            
+            
+              
+              
+            
+            
+              
+              
+            
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">更多的</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                
+                
+                  
+                    
+                    
+                  
+                  
+                    
+                    
+                  
+                  
+                    
+                    
+                  
+                  
+                    
+                    
+                  
+                  
+                    
+                    
+                      <a class="dropdown-item" href="/D-Blog#projects">项目</a>
+                    
+                  
+                  
+                    
+                    
+                      <a class="dropdown-item" href="/D-Blog#accomplishments">证书与软技能</a>
+                    
+                  
+                  
+                    
+                    
+                      <a class="dropdown-item" href="/D-Blog#featured-posts">推荐文章</a>
+                    
+                  
+                  
+                    
+                    
+                      <a class="dropdown-item" href="/D-Blog#recent-posts">最新文章</a>
+                    
+                  
+                  
+                    
+                    
+                      <a class="dropdown-item" href="/D-Blog#achievements">成就</a>
+                    
+                  
+              </div>
+            </li>
+          
+        
+        
+          <div id="top-navbar-divider"></div>
+        
+        
+          <li class="nav-item">
+            <a class="nav-link" id="blog-link" href="/D-Blog/posts">博文</a>
+          </li>
+        
+        
+        
+            
+              <li class="nav-item">
+                <a class="nav-link" href="/posts/blog-guide/">博客指南</a>
+              </li>
+            
+        
+        
+        
+          
+
+
+
+  
+  
+
+
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle"  href="#" id="themeSelector" role="button"
+  data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <img id="navbar-theme-icon-svg" class="theme-icon" src="/D-Blog/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+</a>
+<div id="themeMenu" class="dropdown-menu dropdown-menu-icons-only" aria-labelledby="themeSelector">
+  
+  <a class="dropdown-item nav-link" href="#" data-scheme="light">
+    <img class="theme-icon" src="/D-Blog/icons/sun-svgrepo-com.svg" width=20 alt="Light Theme">
+  </a>
+  
+  
+  <a class="dropdown-item nav-link" href="#" data-scheme="dark">
+    <img class="theme-icon" src="/D-Blog/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+  </a>
+  
+  
+  <a class="dropdown-item nav-link" href="#" data-scheme="system">
+    <img class="theme-icon" src="/D-Blog/icons/computer-svgrepo-com.svg" width=20 alt="System Theme">
+  </a>
+  
+</div>
+</li>
+
+        
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/D-Blog/images/site/main-logo_hu_d2fa0cd478cf3070.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/D-Blog/images/site/inverted-logo_hu_fd6aa13f05725319.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+  
+</nav>
+
+
+
+      
+      
+<section class="sidebar-section" id="sidebar-section">
+  <div class="sidebar-holder">
+    <div class="sidebar" id="sidebar">
+      <form class="mx-auto" method="get" action="/D-Blog/search">
+        <input type="text" name="keyword" value="" placeholder="搜索" data-search="" id="search-box" />
+      </form>
+      <div class="sidebar-tree">
+        <ul class="tree" id="tree">
+          <li id="list-heading"><a href="/posts/" data-filter="all">博文</a></li>
+          <div class="subtree">
+            
+  
+  
+  
+  
+  
+    
+    
+    <li><a class=" list-link" href="/D-Blog/posts/introduction/" title="Introduction">Introduction</a></li>
+    
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i data-feather="plus-circle"></i><a class=" list-link" href="/D-Blog/posts/category/"> Category</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li>
+      <i data-feather="plus-circle"></i><a class=" list-link" href="/D-Blog/posts/category/sub-category/"> Sub-Category</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    
+    <li><a class=" list-link" href="/D-Blog/posts/category/sub-category/rich-content/" title="Rich Content">Rich Content</a></li>
+    
+  
+
+
+      </ul>
+    </li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    
+    <li><a class=" list-link" href="/D-Blog/posts/markdown-sample/" title="Markdown Sample">Markdown Sample</a></li>
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    <li><a class=" list-link" href="/D-Blog/posts/shortcodes/" title="Shortcodes Sample">Shortcodes Sample</a></li>
+    
+  
+
+
+          </div>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      
+      <div class="hero-area col-sm-12" id="hero-area"
+        style='background-image: url(/D-Blog/images/default-hero_hu_1e630a6e35d8e16.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        
+        
+        
+        <div class="author-profile ms-auto align-self-lg-center">
+          <img class="rounded-circle" src='/D-Blog/images/author/john_hu_198272559a275a69.png' alt="Author Image">
+          <h5 class="author-name">你的名字</h5>
+          <p class="text-muted">
+            Thursday, July 2, 2026
+             | 
+            4分钟</p>
+        </div>
+        
+
+        <div class="title">
+          <h1>博客操作指南</h1>
+        </div>
+
+        
+
+        
+        <div class="tags">
+  <ul style="padding-left: 0;">
+    
+    
+    <li><a href="/D-Blog/tags/%E6%8C%87%E5%8D%97/" class="btn btn-sm btn-outline-info rounded">指南</a></li>
+    
+    
+    <li><a href="/D-Blog/tags/toha/" class="btn btn-sm btn-outline-info rounded">Toha</a></li>
+    
+    
+    <li><a href="/D-Blog/tags/hugo/" class="btn btn-sm btn-outline-info rounded">Hugo</a></li>
+    
+  </ul>
+</div>
+
+        
+        <div class="post-content" id="post-content">
+          <p>这是一份<strong>写给自己用</strong>的操作手册，把日常要做的所有事都列在这里。忘了怎么操作就翻这篇。</p>
+<hr>
+<h2 id="一写作相关">一、写作相关</h2>
+<h3 id="1-创建新文章">1. 创建新文章</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>hugo new content content\posts\&lt;文件名&gt;.md
+</span></span></code></pre></div><p>会自动生成 front matter 模板。<code>draft: true</code> 是草稿，<strong>不会</strong>出现在生产构建里。</p>
+<p>预览草稿：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>hugo server -w -D
+</span></span></code></pre></div><p>发布：把 <code>draft: true</code> 改成 <code>false</code>。</p>
+<h3 id="2-front-matter-常用字段">2. Front Matter 常用字段</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span><span style="color:#f92672">title</span>: <span style="color:#e6db74">&#34;文章标题&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">date</span>: <span style="color:#e6db74">2026-07-02T21:43:00</span><span style="color:#ae81ff">+08</span>:<span style="color:#ae81ff">00</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">draft</span>: <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">summary</span>: <span style="color:#e6db74">&#34;一句话描述（卡片预览用）&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">tags</span>: [<span style="color:#e6db74">&#34;标签1&#34;</span>, <span style="color:#e6db74">&#34;标签2&#34;</span>]
+</span></span><span style="display:flex;"><span><span style="color:#f92672">categories</span>: [<span style="color:#e6db74">&#34;分类&#34;</span>]
+</span></span><span style="display:flex;"><span><span style="color:#f92672">author</span>: <span style="color:#e6db74">&#34;你的名字&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">hero</span>: <span style="color:#ae81ff">/images/posts/&lt;自定义图&gt;.jpg</span>
+</span></span><span style="display:flex;"><span>---
+</span></span></code></pre></div><p>完整字段参考：https://toha-docs.netlify.app/posts/writing-posts/front-matter/</p>
+<h3 id="3-文章分类与标签">3. 文章分类与标签</h3>
+<pre tabindex="0"><code>content/posts/
+├── tech-notes/
+│   ├── go-concurrency.md
+│   └── rust-ownership.md
+└── life/
+    └── 2026-reading-list.md
+</code></pre><ul>
+<li><strong>分类</strong> = 文件夹（一篇文章只能有一个分类）</li>
+<li><strong>标签</strong> = front matter 里的数组（一篇文章可以有多个）</li>
+</ul>
+<h3 id="4-内置-shortcodes">4. 内置 shortcodes</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>
+
+
+    
+
+
+<div class="alert warning">
+    <span><i data-feather="alert-triangle"></i></span>
+    <span><strong>警告内容</strong></span>
+</div>
+
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+
+    
+
+
+
+
+    
+
+
+<div class="mermaid" align="center" style="background-color: none; border-radius: 5px;">
+flowchart LR; A-->B-->C
+</div>
+
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+
+
+
+
+<video class="video-player" id="video-175" playsinline controls>
+  <source src="/videos/demo.mp4" type="video/mp4" />
+</video>
+
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><div class="row">
+    
+       <div class="col col-sm-12 col-lg-">
+            左半边内容
+&laquo;!
+        </div>
+    
+       <div class="col col-sm-12 col-lg-">
+            <blockquote>
+<blockquote>
+</blockquote>
+</blockquote>
+<p>右半边内容</p>
+        </div>
+    
+</div>
+
+</span></span></code></pre></div><p>完整列表：https://toha-docs.netlify.app/posts/shortcodes/</p>
+<h3 id="5-数学公式">5. 数学公式</h3>
+<p>Toha 用 KaTeX 自动渲染 markdown 里的公式，<strong>不需要 shortcode</strong>，配置好 delimiters 后直接写 LaTeX 语法就行。</p>
+<p><code>hugo.toml</code> 里启用（前面已经配过）：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>[<span style="color:#a6e22e">params</span>.<span style="color:#a6e22e">features</span>.<span style="color:#a6e22e">math</span>]
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">enable</span> = <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>  [<span style="color:#a6e22e">params</span>.<span style="color:#a6e22e">features</span>.<span style="color:#a6e22e">math</span>.<span style="color:#a6e22e">services</span>.<span style="color:#a6e22e">katex</span>]
+</span></span><span style="display:flex;"><span>    [[<span style="color:#a6e22e">params</span>.<span style="color:#a6e22e">features</span>.<span style="color:#a6e22e">math</span>.<span style="color:#a6e22e">services</span>.<span style="color:#a6e22e">katex</span>.<span style="color:#a6e22e">delimiters</span>]]
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">left</span> = <span style="color:#e6db74">&#34;$$&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">right</span> = <span style="color:#e6db74">&#34;$$&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">display</span> = <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>    [[<span style="color:#a6e22e">params</span>.<span style="color:#a6e22e">features</span>.<span style="color:#a6e22e">math</span>.<span style="color:#a6e22e">services</span>.<span style="color:#a6e22e">katex</span>.<span style="color:#a6e22e">delimiters</span>]]
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">left</span> = <span style="color:#e6db74">&#34;\\(&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">right</span> = <span style="color:#e6db74">&#34;\\)&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">display</span> = <span style="color:#66d9ef">false</span>
+</span></span></code></pre></div><p>markdown 文件里直接写：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>行内公式：$E = mc^2$
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>块级公式：
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>$$
+</span></span><span style="display:flex;"><span>\int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}
+</span></span><span style="display:flex;"><span>$$
+</span></span></code></pre></div><h3 id="6-mermaid-流程图">6. Mermaid 流程图</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>mermaid: true
+</span></span><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+
+    
+
+
+
+
+    
+
+
+<div class="mermaid" align="center" style="background-color: none; border-radius: 5px;">
+graph TD; A-->B; B-->C
+</div>
+
+</span></span></code></pre></div><hr>
+<h2 id="二修改个人信息">二、修改个人信息</h2>
+<p>所有个人/站点信息都在 <code>data/zh-cn/</code> 目录下，<strong>改 yaml 文件即可</strong>，不用动 hugo.toml：</p>
+<table>
+	<thead>
+			<tr>
+					<th>文件</th>
+					<th>改什么</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><code>data/zh-cn/author.yaml</code></td>
+					<td>名字、昵称、头像、邮箱、GitHub、社交链接、一句话列表</td>
+			</tr>
+			<tr>
+					<td><code>data/zh-cn/site.yaml</code></td>
+					<td>版权、免责声明、站点描述、OpenGraph、自定义菜单</td>
+			</tr>
+			<tr>
+					<td><code>data/zh-cn/sections/about.yaml</code></td>
+					<td>自我介绍正文、社交链接、证书、软技能</td>
+			</tr>
+			<tr>
+					<td><code>data/zh-cn/sections/skills.yaml</code></td>
+					<td>技能清单（首页&quot;技能&quot;区）</td>
+			</tr>
+			<tr>
+					<td><code>data/zh-cn/sections/experiences.yaml</code></td>
+					<td>工作经历（首页时间线）</td>
+			</tr>
+			<tr>
+					<td><code>data/zh-cn/sections/education.yaml</code></td>
+					<td>教育背景</td>
+			</tr>
+			<tr>
+					<td><code>data/zh-cn/sections/projects.yaml</code></td>
+					<td>项目展示</td>
+			</tr>
+			<tr>
+					<td><code>data/zh-cn/sections/achievements.yaml</code></td>
+					<td>成就</td>
+			</tr>
+			<tr>
+					<td><code>data/zh-cn/sections/accomplishments.yaml</code></td>
+					<td>证书 + 软技能进度条</td>
+			</tr>
+	</tbody>
+</table>
+<blockquote>
+<p>字段 schema 详细说明：https://toha-docs.netlify.app/posts/configuration/sections/</p>
+</blockquote>
+<hr>
+<h2 id="三添加导航栏菜单">三、添加导航栏菜单</h2>
+<p>编辑 <code>data/zh-cn/site.yaml</code>：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">customMenus</span>:
+</span></span><span style="display:flex;"><span>- <span style="color:#f92672">name</span>: <span style="color:#ae81ff">文章</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">url</span>: <span style="color:#ae81ff">/posts/</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">hideFromNavbar</span>: <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">showOnFooter</span>: <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span>- <span style="color:#f92672">name</span>: <span style="color:#ae81ff">关于本站</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">url</span>: <span style="color:#ae81ff">/posts/blog-guide/</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">hideFromNavbar</span>: <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">showOnFooter</span>: <span style="color:#66d9ef">false</span>
+</span></span></code></pre></div><p>⚠️ <strong>url 必须用站内路径</strong>（<code>/posts/</code> 这种），不要写 <code>https://...</code>，否则会跳到外部站。</p>
+<hr>
+<h2 id="四升级-toha-主题">四、升级 Toha 主题</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span><span style="color:#75715e"># 拉最新版本</span>
+</span></span><span style="display:flex;"><span>hugo mod get -u github.com/hugo-toha/toha/v4
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 同步 go.mod / go.sum</span>
+</span></span><span style="display:flex;"><span>hugo mod tidy
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 重新生成 package.json（主题新增了依赖的话会同步过来）</span>
+</span></span><span style="display:flex;"><span>hugo mod npm pack
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 装新依赖</span>
+</span></span><span style="display:flex;"><span>npm install
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 重启服务验证</span>
+</span></span><span style="display:flex;"><span>hugo server -w
+</span></span></code></pre></div><p>锁定某个版本：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>hugo mod get github.com/hugo-toha/toha/v4@v4.16.0
+</span></span></code></pre></div><hr>
+<h2 id="五换图片资源">五、换图片资源</h2>
+<p><strong>关键规则</strong>：被 <code>resources.Get</code> 引用的图必须放 <code>assets/</code>，<strong>不能放 <code>static/</code></strong>。</p>
+<table>
+	<thead>
+			<tr>
+					<th>类型</th>
+					<th>放哪</th>
+					<th>例子</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>被主题用 <code>resources.Get</code> 加载的图</td>
+					<td><code>assets/images/...</code></td>
+					<td><code>assets/images/site/favicon.png</code>、<code>assets/images/author/john.png</code></td>
+			</tr>
+			<tr>
+					<td>直接 URL 暴露的图</td>
+					<td><code>static/...</code></td>
+					<td><code>static/files/resume.pdf</code>、<code>static/videos/sample.mp4</code></td>
+			</tr>
+	</tbody>
+</table>
+<p>换头像流程：</p>
+<ol>
+<li>把新头像放到 <code>assets/images/author/</code>（覆盖旧文件）</li>
+<li>改 <code>data/zh-cn/author.yaml</code> 的 <code>image</code> 字段</li>
+<li>刷新页面</li>
+</ol>
+<hr>
+<h2 id="六构建生产版本">六、构建生产版本</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span><span style="color:#75715e"># 生成静态文件到 public/</span>
+</span></span><span style="display:flex;"><span>hugo --gc --minify
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 部署：把 public/ 整个丢到 GitHub Pages / Vercel / Netlify / 服务器</span>
+</span></span></code></pre></div><p>构建前先确认 <code>hugo.toml</code> 里 <code>baseURL</code> 改成正式域名（不然 CSS/JS 路径会指向 localhost）。</p>
+<hr>
+<h2 id="七添加评论系统">七、添加评论系统</h2>
+<p><code>hugo.toml</code> 里：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>[<span style="color:#a6e22e">params</span>.<span style="color:#a6e22e">features</span>.<span style="color:#a6e22e">comment</span>]
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">enable</span> = <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>  [<span style="color:#a6e22e">params</span>.<span style="color:#a6e22e">features</span>.<span style="color:#a6e22e">comment</span>.<span style="color:#a6e22e">services</span>.<span style="color:#a6e22e">giscus</span>]
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">repo</span> = <span style="color:#e6db74">&#34;VimatinD/D-Blog&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">repoID</span> = <span style="color:#e6db74">&#34;xxx&#34;</span>          <span style="color:#75715e"># 在 https://giscus.app/ 获取</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">category</span> = <span style="color:#e6db74">&#34;Announcements&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">categoryID</span> = <span style="color:#e6db74">&#34;DIC_xxx&#34;</span>
+</span></span></code></pre></div><p>支持 Disqus / Giscus / Utterances / Valine。</p>
+<hr>
+<h2 id="八添加访问统计">八、添加访问统计</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>[<span style="color:#a6e22e">params</span>.<span style="color:#a6e22e">features</span>.<span style="color:#a6e22e">analytics</span>]
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">enable</span> = <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>  [<span style="color:#a6e22e">params</span>.<span style="color:#a6e22e">features</span>.<span style="color:#a6e22e">analytics</span>.<span style="color:#a6e22e">services</span>.<span style="color:#a6e22e">google</span>]
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">id</span> = <span style="color:#e6db74">&#34;G-XXXXXXX&#34;</span>        <span style="color:#75715e"># Google Analytics ID</span>
+</span></span></code></pre></div><p>支持 Google Analytics / GoatCounter / Matomo / Umami。</p>
+<hr>
+<h2 id="九紧急修复速查">九、紧急修复速查</h2>
+<table>
+	<thead>
+			<tr>
+					<th>症状</th>
+					<th>原因</th>
+					<th>修法</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>启动报 <code>module not found</code></td>
+					<td>Go 模块没拉全</td>
+					<td><code>hugo mod tidy</code></td>
+			</tr>
+			<tr>
+					<td>报 <code>Cannot find module 'bootstrap'</code></td>
+					<td>npm 依赖没装</td>
+					<td><code>npm install</code></td>
+			</tr>
+			<tr>
+					<td>SCSS 编译失败</td>
+					<td>Hugo 不是 Extended</td>
+					<td>重新装 <code>Hugo.Hugo.Extended</code></td>
+			</tr>
+			<tr>
+					<td>图片不显示</td>
+					<td>图放错目录</td>
+					<td>主题用 <code>resources.Get</code> 的图必须在 <code>assets/</code></td>
+			</tr>
+			<tr>
+					<td><code>nil pointer evaluating resource.Resource.RelPermalink</code></td>
+					<td>引用了不存在的资源</td>
+					<td>检查对应 yaml 里的 <code>image</code> / <code>logo</code> 路径</td>
+			</tr>
+			<tr>
+					<td>主题升级后页面挂了</td>
+					<td>没跑 <code>hugo mod npm pack &amp;&amp; npm install</code></td>
+					<td>按&quot;四、升级主题&quot;流程再来一遍</td>
+			</tr>
+	</tbody>
+</table>
+<hr>
+<h2 id="十关键文件清单出问题先看这些">十、关键文件清单（出问题先看这些）</h2>
+<pre tabindex="0"><code>hugo.toml              # 主配置
+go.mod / go.sum        # Hugo Module 锁版本
+package.json           # npm 依赖锁版本
+data/zh-cn/*.yaml      # 站点数据（个人/各 section）
+content/posts/         # 博客文章
+assets/images/         # 主题用 resources.Get 读取的图片
+static/                # 直接暴露的静态文件
+</code></pre><hr>
+<h2 id="参考链接">参考链接</h2>
+<ul>
+<li>Toha 文档：https://toha-docs.netlify.app/posts/</li>
+<li>Toha GitHub：https://github.com/hugo-themes/toha</li>
+<li>Hugo 中文文档：https://gohugo.io/documentation/</li>
+<li>项目 GitHub：https://github.com/VimatinD/D-Blog</li>
+</ul>
+
+        </div>
+
+        
+        <div class="row ps-3 pe-3">
+          
+          <div class="col-md-6 share-buttons">
+            
+          </div>
+
+          
+          
+        </div>
+
+
+
+        
+        <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+  
+</div>
+
+        <hr />
+
+        
+        
+
+        
+        
+
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn" type="button" data-bs-toggle="tooltip" data-bs-placement="left"
+    title="Scroll to top">
+    <i class="fas fa-chevron-circle-up"></i>
+  </a>
+</section>
+
+
+      
+      
+<section class="toc-section" id="toc-section">
+  
+  <div class="toc-holder">
+    <h5 class="text-center ps-3">目录</h5>
+    <hr>
+    <div class="toc">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#一写作相关">一、写作相关</a>
+      <ul>
+        <li><a href="#1-创建新文章">1. 创建新文章</a></li>
+        <li><a href="#2-front-matter-常用字段">2. Front Matter 常用字段</a></li>
+        <li><a href="#3-文章分类与标签">3. 文章分类与标签</a></li>
+        <li><a href="#4-内置-shortcodes">4. 内置 shortcodes</a></li>
+        <li><a href="#5-数学公式">5. 数学公式</a></li>
+        <li><a href="#6-mermaid-流程图">6. Mermaid 流程图</a></li>
+      </ul>
+    </li>
+    <li><a href="#二修改个人信息">二、修改个人信息</a></li>
+    <li><a href="#三添加导航栏菜单">三、添加导航栏菜单</a></li>
+    <li><a href="#四升级-toha-主题">四、升级 Toha 主题</a></li>
+    <li><a href="#五换图片资源">五、换图片资源</a></li>
+    <li><a href="#六构建生产版本">六、构建生产版本</a></li>
+    <li><a href="#七添加评论系统">七、添加评论系统</a></li>
+    <li><a href="#八添加访问统计">八、添加访问统计</a></li>
+    <li><a href="#九紧急修复速查">九、紧急修复速查</a></li>
+    <li><a href="#十关键文件清单出问题先看这些">十、关键文件清单（出问题先看这些）</a></li>
+    <li><a href="#参考链接">参考链接</a></li>
+  </ul>
+</nav>
+    </div>
+  </div>
+  
+</section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+    
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-start">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>导航</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/D-Blog/#about">关于</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/D-Blog/#skills">技能</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/D-Blog/#experiences">工作经历</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/D-Blog/#education">教育背景</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/D-Blog/#projects">项目</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/D-Blog/#accomplishments">证书与软技能</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/D-Blog/#featured-posts">推荐文章</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/D-Blog/#recent-posts">最新文章</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/D-Blog/#achievements">成就</a>
+                </li>
+              
+            
+              
+                
+              
+            
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>联系方式:</h5>
+          <ul>
+            
+              
+                <li><a href=mailto:your-email@example.com target="_blank" rel="noopener">
+                  <span><i class="fas fa-envelope"></i></span> <span>your-email@example.com</span>
+                </a></li>
+              
+            
+              
+                <li><a href=https://github.com/your-github-id target="_blank" rel="noopener">
+                  <span><i class="fab fa-github"></i></span> <span>your-github-id</span>
+                </a></li>
+              
+            
+              
+                <li><a href=https://www.linkedin.com/in/ target="_blank" rel="noopener">
+                  <span><i class="fab fa-linkedin"></i></span> <span>你的名字</span>
+                </a></li>
+              
+            
+              
+                <li><a href=tel: target="_blank" rel="noopener">
+                  <span><i class="fas fa-phone-alt"></i></span> <span></span>
+                </a></li>
+              
+            
+              
+                <li><a href=https://www.researchgate.net/profile/ target="_blank" rel="noopener">
+                  <span><i class="fab fa-researchgate"></i></span> <span>你的名字</span>
+                </a></li>            
+              
+            
+          </ul>
+        </div>
+        
+        
+        
+          
+          <div class="col-md-4 col-sm-12">
+            <p>通过电子邮件接收最新信息</p>
+            
+              <form method='post' action='https://blogtrottr.com'>
+              <div class="form-group">
+              <input type='email' class="form-control" name='btr_email' placeholder="填入 E-mail"/><br />
+              <input type='hidden' name='btr_url' value='http://localhost:1313/D-Blog//index.xml' />
+              <input type='hidden' name='schedule_type' value='1' />
+              <small id="emailHelp" class="form-text text-muted">输入您的电子邮件地址，即表示您同意接收本网站的时事通讯</small>
+              <button type="submit" class="btn btn-info"> 提交 </button>
+              </div>
+              </form>
+            
+          </div>
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-start">
+        <div class="col-md-4">
+          <a id="theme" href="https://github.com/hugo-toha/toha" target="_blank" rel="noopener">
+            <img src="/D-Blog/images/theme-logo_hu_be7279b2506ad3f1.png" alt="Toha Theme Logo">
+            Toha
+          </a>
+        </div>
+        <div class="col-md-4 text-center">© 2026 版权所有</div>
+        <div class="col-md-4 text-end">
+          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Powered by
+          <img
+            src="/D-Blog/images/hugo-logo.svg"
+            alt="Hugo Logo"
+            height="18"
+          />
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script src="/D-Blog/application.93a2d332e6abb21d3d265617bccda1a03fdfb027524ff4a1abf985fc783f36eb.js" integrity="sha256-k6LTMuarsh09JlYXvM2hoD/fsCdST/Shq/mF/Hg/Nus=" defer></script>
+
+
+    
+     
+
+    
+</body>
+</html>
